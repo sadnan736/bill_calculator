@@ -1,14 +1,5 @@
-from tkinter import *
-
-root = Tk()
-
-mylabel = Label(root, text='somethiong')
-mylabel.pack()
-
-root.mainloop()
-
 print("Welcome to the Tip Calcutator!")
-bill = float(input("What was the total bill? ৳"))
+    bill = float(input("What was the total bill? ৳"))
 persons = int(input("How many people will split the bill? "))
 tip = float((input("How much tip would you like to give? Standard is 15% ")))
 
